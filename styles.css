@@ -1,4 +1,11 @@
-body {
-  align-item: center;
-  back-ground: #000;
+ body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Hace que ocupe toda la altura de la ventana */
+            margin: 0;
+ }
+img {
+    max-width: 100%; /* Evita que la imagen se desborde */
+    height: auto;
 }
